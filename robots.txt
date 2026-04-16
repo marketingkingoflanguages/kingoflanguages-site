@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /obrigado/
+Disallow: /pre-formulario/
+
+Sitemap: https://kingoflanguages.com.br/sitemap-index.xml
