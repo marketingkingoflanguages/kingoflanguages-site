@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cores primárias (vermelho) */
+  --color-primary-50: #FDE8EC;
+  --color-primary-100: #F9C2CA;
+  --color-primary-200: #F28A99;
+  --color-primary-300: #E54D63;
+  --color-primary-400: #D83350;
+  --color-primary: #CC213B;
+  --color-primary-600: #A01A2E;
+  --color-primary-700: #7A1423;
+
+  /* Cores secundárias (azul) */
+  --color-secondary-50: #E8F2FC;
+  --color-secondary-100: #C5DEFA;
+  --color-secondary-200: #8BBDE8;
+  --color-secondary-300: #4D9AD5;
+  --color-secondary-400: #247CC4;
+  --color-secondary: #005FB3;
+  --color-secondary-600: #004A8C;
+  --color-secondary-700: #003566;
+
+  /* Semânticas */
+  --color-success: #047857;
+  --color-success-light: #D1FAE5;
+  --color-error: #B91C1C;
+  --color-error-light: #FEE2E2;
+
+  /* Fontes */
+  --font-heading: "Poppins", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+/* Reset mínimo */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-underline-offset: 2px;
+}
+
+p {
+  max-width: 65ch;
+}
